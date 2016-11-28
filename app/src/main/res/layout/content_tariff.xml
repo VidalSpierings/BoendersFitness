@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/content_tariff"
+        tools:context="com.entecmedia.boendersfitness.TariffActivity"
+        android:background="@drawable/blue_fade">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/unlimited_day_string"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/textView43"
+            android:layout_alignStart="@+id/textView43"
+            android:layout_marginTop="24dp"
+            android:textColor="#3a6f8f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/unlimited_dal"
+            android:id="@+id/textView43"
+            android:textSize="20dp"
+            android:layout_below="@+id/normal_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#3a6f8f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/dal_costs"
+            android:id="@+id/peakhourstextView"
+            android:textSize="25dp"
+            android:textColor="#558B2F"
+            android:layout_below="@+id/textView43"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView45"
+            android:layout_below="@+id/peakhourstextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/all_subscriptions"
+            android:id="@+id/include_key_textView"
+            android:layout_below="@+id/peakhourstextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/key_subscription"
+            android:id="@+id/key_title_textView"
+            android:layout_below="@+id/include_key_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/key_subsciption_description"
+            android:id="@+id/key_description_textView"
+            android:layout_below="@+id/key_title_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sixty_plus"
+            android:id="@+id/textView49"
+            android:layout_below="@+id/key_description_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sixty_plus_description"
+            android:id="@+id/textView50"
+            android:layout_below="@+id/textView49"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/onelesson"
+            android:id="@+id/textView51"
+            android:layout_below="@+id/textView50"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:textColor="#3a6f8f"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/onelesson_description"
+            android:id="@+id/textView52"
+            android:layout_below="@+id/textView51"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/family_subscription"
+            android:id="@+id/textView53"
+            android:textColor="#3a6f8f"
+            android:textSize="25dp"
+            android:layout_below="@+id/textView52"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/family_subsciption_description"
+            android:id="@+id/textView54"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView53"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/additional_costs"
+            android:id="@+id/textView55"
+            android:textColor="#3a6f8f"
+            android:textSize="25dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/textView54"
+            android:layout_alignLeft="@+id/textView43"
+            android:layout_alignStart="@+id/textView43" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/additional_costs_description"
+            android:id="@+id/try_out_description"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView55"
+            android:layout_alignRight="@+id/peakhourstextView"
+            android:layout_alignEnd="@+id/peakhourstextView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_of_service"
+            android:id="@+id/button5"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
+            android:layout_below="@+id/try_out_description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/subject_change_string"
+            android:id="@+id/textView15"
+            android:layout_below="@+id/try_out_description"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/day_costs"
+            android:id="@+id/normal_textView"
+            android:textSize="25dp"
+            android:textColor="#558B2F"
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView49"
+            android:layout_alignStart="@+id/textView49" />
+    </RelativeLayout>
+
+</ScrollView>
