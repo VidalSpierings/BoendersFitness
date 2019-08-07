@@ -3,20 +3,17 @@
 
     <group android:checkableBehavior="single">
 
-        <item android:id="@+id/home" android:icon="@mipmap/ic_home_black_48dp"
-            android:title="@string/home" />
-        <item android:id="@+id/music" android:icon="@mipmap/ic_music_note_black_48dp"
-            android:title="@string/nav_music"
-            android:visible="false"/>
-        <item android:id="@+id/openinghours" android:icon="@mipmap/ic_access_time_black_48dp"
-            android:title="@string/nav_drawer_openingtimes" />
-        <item android:id="@+id/tariff" android:icon="@mipmap/ic_euro_symbol_black_48dp"
-            android:title="@string/nav_drawer_tariff" />
-        <item android:id="@+id/nav_slideshow" android:icon="@mipmap/ic_fitness_center_black_48dp"
+        <item android:id="@+id/home" android:title="@string/home"/>
+        <item android:id="@+id/nav_slideshow"
             android:title="@string/info" />
-
-        <item android:id="@+id/contact" android:icon="@mipmap/ic_call_black_48dp"
+        <item android:id="@+id/tariff"
+            android:title="@string/nav_drawer_tariff" />
+        <item android:id="@+id/openinghours"
+            android:title="@string/nav_drawer_openingtimes" />
+        <item android:id="@+id/contact"
             android:title="@string/contact" />
+        <item android:id="@+id/music" android:title="@string/nav_music"
+            android:visible="false"/>
 
     </group>
 

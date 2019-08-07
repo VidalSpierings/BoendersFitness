@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.entecmedia.boendersfitness.LocationActivity"
-    android:background="@drawable/background_main_new">
+    android:background="@drawable/app_background_image">
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabutton"
@@ -26,7 +24,7 @@
         android:text="E-mail: boenderfitness@hotmail.com"
         android:id="@+id/textView36"
         android:textSize="18sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:textColor="#FFFFFF"
         android:layout_below="@+id/imageView5"
         android:layout_centerHorizontal="true"
@@ -55,17 +53,6 @@
         android:layout_centerHorizontal="true"
         android:textColor="#FFFFFF" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/send_mail"
-        android:id="@+id/button"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="#000000"
-        android:layout_above="@+id/button7"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="5dp" />
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,12 +66,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/facebook_page_string"
-        android:id="@+id/button7"
-        android:textColor="#FFFFFF"
-        android:backgroundTint="#3B5998"
+        android:text="@string/send_mail"
+        android:id="@+id/button"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
         android:layout_above="@+id/fabutton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="10dp" />
 
 </RelativeLayout>

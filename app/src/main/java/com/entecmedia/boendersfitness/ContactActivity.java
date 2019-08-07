@@ -18,7 +18,7 @@ import android.widget.TextView;
  */
 public class ContactActivity extends android.support.v4.app.Fragment {
 
-    Button button, button7;
+    Button button;
     FloatingActionButton fabutton;
 
     Bundle bundle;
@@ -44,14 +44,12 @@ public class ContactActivity extends android.support.v4.app.Fragment {
         BoenderDames = getActivity().getIntent().getExtras().getInt("BoenderDames");
         BoenderMichiel = getActivity().getIntent().getExtras().getInt("BoenderMichiel");
 
-        button = (Button) rootView.findViewById(R.id.button);
-        button7 = (Button) rootView.findViewById(R.id.button7);
         fabutton = (FloatingActionButton) rootView.findViewById(R.id.fabutton);
         imageView5 = (ImageView) rootView.findViewById(R.id.imageView5);
+        button = (Button) rootView.findViewById(R.id.button);
 
         if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP){
             button.setBackgroundColor(Color.parseColor("#FFFFFF"));
-            button7.setBackgroundColor(Color.parseColor("#3B5998"));
         }
 
         if (BoenderBoxtel == 1){
@@ -95,20 +93,6 @@ public class ContactActivity extends android.support.v4.app.Fragment {
             }
         });
         phone.setText(phoneNumber);
-
-        button7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Uri uri = Uri.parse("https://www.facebook.com/Boenderfitness/?fref=ts");
-
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-
-                intent.setData(uri);
-
-                startActivity(intent);
-            }
-        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

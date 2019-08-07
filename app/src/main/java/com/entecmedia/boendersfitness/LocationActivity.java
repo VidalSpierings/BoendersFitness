@@ -23,6 +23,8 @@ public class LocationActivity extends android.support.v4.app.Fragment {
 
     ImageView locationImage;
 
+    FloatingActionButton floatingActionButton;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -36,6 +38,7 @@ public class LocationActivity extends android.support.v4.app.Fragment {
         BoenderMichiel = getActivity().getIntent().getExtras().getInt("BoenderMichiel");
 
         locationImage = (ImageView) i.findViewById(R.id.locationImage);
+        floatingActionButton = (FloatingActionButton) i.findViewById(R.id.floatingActionButton);
 
         if (BoenderBoxtel == 1){
 
@@ -53,7 +56,7 @@ public class LocationActivity extends android.support.v4.app.Fragment {
 
         }
 
-locationImage.setOnClickListener(new View.OnClickListener() {
+floatingActionButton.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
 

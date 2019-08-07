@@ -3,10 +3,11 @@
 
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/activity_location_background"
+    android:background="@drawable/app_background_image"
     tools:context="com.entecmedia.boendersfitness.LocationActivity">
 
     <ImageView
@@ -25,7 +26,8 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="18dp"
-        android:textIsSelectable="true" />
+        android:textIsSelectable="true"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,7 +39,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10sp"
         android:textSize="18dp"
-        android:textIsSelectable="true" />
+        android:textIsSelectable="true"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,6 +52,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:textSize="18dp"
-        android:textIsSelectable="true" />
+        android:textIsSelectable="true"
+        android:textColor="#FFFFFF" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@mipmap/ic_directions_black_48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/floatingActionButton"
+        android:layout_marginBottom="16dp" />
 
 </RelativeLayout>

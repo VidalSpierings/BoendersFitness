@@ -22,7 +22,6 @@ public class StartupActivity extends android.support.v4.app.Fragment {
     int BoenderMichiel;
 
     TextView textView20;
-    ImageView copyrightimage;
 
 
 
@@ -41,7 +40,6 @@ public class StartupActivity extends android.support.v4.app.Fragment {
         BoenderMichiel = getActivity().getIntent().getExtras().getInt("BoenderMichiel");
 
         textView20 = (TextView) rootView.findViewById(R.id.textView20);
-        copyrightimage = (ImageView) rootView.findViewById(R.id.copyrightImage);
 
 
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
@@ -78,33 +76,9 @@ public class StartupActivity extends android.support.v4.app.Fragment {
             }
         });
 
-        copyrightimage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Uri uri = Uri.parse("https://entec.weebly.com");
-
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-
-                intent.setData(uri);
-
-                startActivity(intent);
-            }
-        });
-
-        textView20.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri uri = Uri.parse("https://entec.weebly.com");
-
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-
-                intent.setData(uri);
-
-                startActivity(intent);
-            }
-        });
-
         return rootView;
     }
+
+
+
 }

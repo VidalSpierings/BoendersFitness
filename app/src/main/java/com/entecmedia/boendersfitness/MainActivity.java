@@ -18,10 +18,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     Intent intent;
     Bundle bundle;
 
+    // TODO:
 
-
-
-    // create apk
+    // Debug release version --> versioncode --> generate APK
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,8 +39,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             window.setStatusBarColor(this.getResources().getColor(R.color.colorStatusbar));
         }
-
-
 
          button1.setOnClickListener(new View.OnClickListener() {
             @Override

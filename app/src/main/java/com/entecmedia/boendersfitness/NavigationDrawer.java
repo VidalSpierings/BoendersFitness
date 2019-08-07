@@ -233,7 +233,16 @@ public class NavigationDrawer extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            if (BoenderBoxtel == 1){
+
+                toolbar.setLogo(null);
+                toolbar.setTitle(null);
+                super.onBackPressed();
+
+            }
+            else{
+                super.onBackPressed();
+            }
         }
     }
 

@@ -15,7 +15,7 @@
     <string name="title_activity_tariff">TariffActivity</string>
     <string name="nav_drawer_openingtimes">Openingstijden</string>
     <string name="nav_drawer_tariff">Tarieven</string>
-    <string name="only_during_opening_hours">alleen tijdens openingstijden</string>
+    <string name="only_during_opening_hours">alleen beschikbaar gedurende openingstijden</string>
     <string name="send_mail">Stuur een E-mail</string>
     <string name="startup_header">Welkom bij Boender fitness</string>
     <string name="info">Vestigingen</string>
@@ -29,7 +29,7 @@
     <string name="music">Muziek Implementatie</string>
     <string name="currently">Er is momenteel geen actieve link</string>
     <string name="insert_link_string">voeg toe</string>
-    <string name="description_main_string">Bent u op zoek naar een betere conditie, afvallen en/of spierversteviging? Dan bent u bij Boender Fitness aan het juiste adres. Boender Fitness kan u dit alles bieden met gevarieerde en moderne trainings methoden. Al onze lessen worden begeleid onder professionele begeleiding van een van onze instructeurs. 365 dagen per jaar geopend en dat al ruim 25 jaar! Op elk niveau moet sporten bij ons vooral uitdagend zijn èn blijven. Jong en oud, recreant en prestatiesporter. Boender Fitness is toegankelijk voor iedereen vanaf 13 jaar. Overdag is er GRATIS koffie en thee voor leden!</string>
+    <string name="description_main_string">Bent u op zoek naar een betere conditie, afvallen en/of spierversteviging? Dan bent u bij Boender Fitness aan het juiste adres. Boender Fitness kan u dit alles bieden met gevarieerde en moderne trainings methoden. Al onze lessen worden begeleid onder professionele begeleiding van een van onze instructeurs. 365 dagen per jaar geopend en dat al ruim 25 jaar!</string>
     <string name="successfully_string">De link is succesvol ingevoerd</string>
     <string name="all_openinghours_string">alle openigstijden</string>
     <string name="change_type_string">Verander type abonnement</string>
@@ -64,17 +64,18 @@
     <string name="unlimited_day_string">Onbeperkt daguren</string>
     <string name="day_costs">€ 26,95,- per maand/incasso</string>
     <string name="unlimited_dal">Onbeperkt daluren</string>
-    <string name="dal_costs">€ 21,95,- per maand/incasso (sporten tot 17.00 uur)</string>
+    <string name="dal_costs">€ 21,95,- per maand/incasso</string>
     <string name="all_subscriptions">alle abonnementen zijn inclusief key!</string>
     <string name="key_subscription">het KEY-abonnement</string>
     <string name="sixty_plus">60+ en jongerentarief</string>
-    <string name="sixty_plus_description">Zestigplussers en jongeren tot 18 jaar betalen voor onbeperkt fitness een gereduceerd tarief van slechts € 21,- per maand/incasso</string>
+    <string name="sixty_plus_description">Zestigplussers en jongeren tot 23 jaar betalen voor onbeperkt fitness een gereduceerd tarief van slechts € 21,95,- per maand/incasso</string>
+    <string name="sixty_plus_description_ladies">Zestigplussers en jongeren tot 23 jaar betalen voor onbeperkt fitness een gereduceerd tarief van slechts € 19,95,- per maand/incasso</string>
     <string name="onelesson">losse training/proefles</string>
-    <string name="onelesson_description">€ 6,- . Dit bedrag word in mindering gebracht wanneer u zich binnen een week inschrijft.</string>
+    <string name="onelesson_description">€ 5,- . Dit bedrag word in mindering gebracht wanneer u zich binnen een week inschrijft.</string>
     <string name="family_subscription">Gezinsabonnement (onbeperkt)</string>
-    <string name="family_subsciption_description">€ 60,- p.m., per incasso \n \n - maximaal 5 personen (2 volwassenen + 3 kinderen) per abonnement \n - alle gezinsleden dienen (aantoonbaar) op hetzelfde adres te wonen \n - niet in combinatie met andere acties \n - pashouder is aansprakelijk voor gebruik/misbruik pas</string>
+    <string name="family_subsciption_description">€ 59,95 p/m, per incasso \n \n - maximaal 5 personen (2 volwassenen + 3 kinderen) per abonnement \n\n - alle gezinsleden dienen (aantoonbaar) op hetzelfde adres te wonen \n\n - niet in combinatie met andere acties \n\n - pashouder is aansprakelijk voor gebruik/misbruik pas</string>
     <string name="additional_costs">inschrijfgeld</string>
-    <string name="additional_costs_description">€ 10,- (zonder instructieles) \n of \n € 20,- (incl. instructieles op afspraak)</string>
+    <string name="additional_costs_description">€ 10,- (zonder instructieles) \n of \n € 15,- (incl. instructieles op afspraak)</string>
     <string name="terms_of_service">Algemene voorwaarden</string>
     <string name="home_string">Home</string>
     <string name="music_string">Muziek</string>
@@ -82,7 +83,7 @@
     <string name="tariffs_string">Tarieven</string>
     <string name="establishments_string">Vestigingen</string>
     <string name="contact_string">Contact</string>
-    <string name="key_subsciption_description">KEY klanten kunnen buiten de reguliere openingstijden 365 dagen per jaar gebruik maken van de fitnessruimte aan de Rozemarijnstraat 6a in Boxtel middels eigen sleutel (vraag naar voorwaarden)</string>
+    <string name="key_subsciption_description">KEY klanten kunnen buiten de reguliere openingstijden 365 dagen per jaar gebruik maken van onze fitnessruimtes middels eigen sleutel (vraag naar voorwaarden)</string>
     <string name="enter_link_string">Vul hier je link in</string>
     <string name="property_of_string">Eigendom van</string>
     <string name="normal_hours_string">Daluren</string>
@@ -100,7 +101,7 @@
     <string name="not_connected">Er kan geen verbinding worden gemaakt met Google Play Sevices</string>
     <string name="no_internet_string">Er is iets fout gegaan, check of u bent verbonden met het internet en probeer opnieuw</string>
     <string name="fifth_of_december_string">5 december</string>
-    <string name="internet_link">entec.weebly.com</string>
+    <string name="internet_link"><u>entec.weebly.com</u></string>
     <string name="activity_image_trans">sjksdjksdjkfsdfsdj</string>
     <string name="activity_image_trans2">sjksdjksdjkfsdfsdj</string>
     <string name="geofence">geofencestring</string>
@@ -112,6 +113,21 @@
     <string name="twentyfive_string">€ 25,- p.m.</string>
     <string name="subject_change_string">(Alle wijzigingen onder voorbehoud)</string>
 
+    <string name="weekend_sub">Weekend abonnement</string>
+    <string name="weekend_sub_desc">€ 14,95,- p/m</string>
+    <string name="vacu">Onbeperkt Vacustep en/of Fitness</string>
+    <string name="vacu_desc">€ 34,95,- p/m</string>
+    <string name="partner_sub">Partnerabonnement</string>
+    <string name="partner_sub_desc">Onbeperkt Vacustep en/of Fitness voor jou en je partner voor slechts € 49,95 per maand</string>
+    <string name="vacu_seperate">Losse Vacustep sessie</string>
+    <string name="vacu_seprate_desc">€ 5,- Dit bedrag word in mindering gebracht wanneer u zich binnen een week inschrijft.</string>
 
+    <string name="day_costs_ladies">€ 25,- per maand/incasso</string>
+    <string name="dal_costs_ladies">€ 18,50 per maand/incasso</string>
+    <string name="family_subsciption_description_ladies">€ 59,95 p/m, per incasso \n \n - maximaal 5 personen (2 volwassenen + 3 kinderen) per abonnement \n\n - alle gezinsleden dienen (aantoonbaar) op hetzelfde adres te wonen \n\n - niet in combinatie met andere acties \n\n - pashouder is aansprakelijk voor gebruik/misbruik pas</string>
+    <string name="additional_costs_description_ladies">€ 10,- (zonder instructieles) \n of \n € 15,- (incl. instructieles op afspraak)</string>
+
+    <string name="unlimited_day_gestel">Onbeperkt Fitness</string>
+    <string name="unlimited_day_desc_gestel">€ 24,95 p/m, per incasso</string>
 
 </resources>

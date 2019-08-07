@@ -16,20 +16,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:showIn="@layout/content_tariff"
         tools:context="com.entecmedia.boendersfitness.TariffActivity"
-        android:background="@drawable/blue_fade">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/unlimited_day_string"
-            android:id="@+id/textView4"
-            android:textSize="20dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignLeft="@+id/textView43"
-            android:layout_alignStart="@+id/textView43"
-            android:layout_marginTop="24dp"
-            android:textColor="#3a6f8f" />
+        android:background="@drawable/app_background_image">
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,11 +24,10 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/unlimited_dal"
             android:id="@+id/textView43"
-            android:textSize="20dp"
             android:layout_below="@+id/normal_textView"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            android:textColor="#3a6f8f" />
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,11 +35,11 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/dal_costs"
             android:id="@+id/peakhourstextView"
-            android:textSize="25dp"
-            android:textColor="#558B2F"
+            android:textColor="#85bb65"
             android:layout_below="@+id/textView43"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -68,44 +54,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/all_subscriptions"
-            android:id="@+id/include_key_textView"
-            android:layout_below="@+id/peakhourstextView"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/key_subscription"
-            android:id="@+id/key_title_textView"
-            android:layout_below="@+id/include_key_textView"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:textSize="25dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/key_subsciption_description"
             android:id="@+id/key_description_textView"
             android:layout_below="@+id/key_title_textView"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/sixty_plus"
-            android:id="@+id/textView49"
-            android:layout_below="@+id/key_description_textView"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:textSize="25dp" />
+            android:layout_marginTop="8dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -115,8 +70,9 @@
             android:id="@+id/textView50"
             android:layout_below="@+id/textView49"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp"
-            android:textColor="#000000" />
+            android:layout_marginTop="8dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -127,77 +83,8 @@
             android:layout_below="@+id/textView50"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp"
-            android:textColor="#3a6f8f"
+            android:textColor="#FFFFFF"
             android:textSize="25dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/onelesson_description"
-            android:id="@+id/textView52"
-            android:layout_below="@+id/textView51"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
-            android:textColor="#000000" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/family_subscription"
-            android:id="@+id/textView53"
-            android:textColor="#3a6f8f"
-            android:textSize="25dp"
-            android:layout_below="@+id/textView52"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="35dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/family_subsciption_description"
-            android:id="@+id/textView54"
-            android:textColor="#000000"
-            android:layout_below="@+id/textView53"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/additional_costs"
-            android:id="@+id/textView55"
-            android:textColor="#3a6f8f"
-            android:textSize="25dp"
-            android:layout_marginTop="35dp"
-            android:layout_below="@+id/textView54"
-            android:layout_alignLeft="@+id/textView43"
-            android:layout_alignStart="@+id/textView43" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/additional_costs_description"
-            android:id="@+id/try_out_description"
-            android:textColor="#000000"
-            android:layout_below="@+id/textView55"
-            android:layout_alignRight="@+id/peakhourstextView"
-            android:layout_alignEnd="@+id/peakhourstextView" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/terms_of_service"
-            android:id="@+id/button5"
-            android:backgroundTint="#FFFFFF"
-            android:textColor="#000000"
-            android:layout_below="@+id/try_out_description"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="35dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -207,7 +94,9 @@
             android:id="@+id/textView15"
             android:layout_below="@+id/try_out_description"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FFFFFF" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -215,11 +104,209 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/day_costs"
             android:id="@+id/normal_textView"
-            android:textSize="25dp"
-            android:textColor="#558B2F"
+            android:textColor="#85bb65"
             android:layout_below="@+id/textView4"
-            android:layout_alignLeft="@+id/textView49"
-            android:layout_alignStart="@+id/textView49" />
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/unlimited_day_string"
+            android:id="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/onelesson_description"
+            android:id="@+id/textView18"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_below="@+id/textView51"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/weekend_sub"
+            android:id="@+id/weekend_textView"
+            android:textColor="#FFFFFF"
+            android:layout_above="@+id/weekend_desc_textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/key_subscription"
+            android:id="@+id/key_title_textView"
+            android:layout_marginTop="40dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_below="@+id/textView47"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_of_service"
+            android:id="@+id/button5"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/additional_costs_description"
+            android:id="@+id/try_out_description"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:gravity="center"
+            android:layout_below="@+id/try_out_textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/vacu"
+            android:id="@+id/textView42"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/weekend_desc_textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/sixty_plus"
+            android:id="@+id/textView49"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_below="@+id/partner_textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/partner_sub_desc"
+            android:id="@+id/partner_desc_textView"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_below="@+id/partner_textView"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/partner_sub"
+            android:id="@+id/partner_textView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_marginTop="49dp"
+            android:layout_below="@+id/key_description_textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/family_subsciption_description"
+            android:id="@+id/textView54"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/family_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/vacu_desc"
+            android:id="@+id/textView47"
+            android:textColor="#85bb65"
+            android:gravity="center"
+            android:layout_below="@+id/textView42"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/vacu_seperate"
+            android:id="@+id/textView56"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/textView54"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/additional_costs"
+            android:id="@+id/try_out_textView"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:layout_below="@+id/textView17"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/family_subscription"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/family_textView"
+            android:layout_below="@+id/textView18"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/weekend_sub_desc"
+            android:id="@+id/weekend_desc_textView"
+            android:textColor="#85bb65"
+            android:gravity="center"
+            android:layout_alignTop="@+id/textView45"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/vacu_seprate_desc"
+            android:id="@+id/textView17"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_below="@+id/textView56"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
     </RelativeLayout>
 
 </ScrollView>
