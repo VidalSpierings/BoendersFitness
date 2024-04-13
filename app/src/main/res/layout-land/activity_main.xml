@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- rozemarijnstraat views -->
+
+
+    <ImageView
+        android:id="@+id/rozemarijnstraatImageView"
+        android:contentDescription="@string/rozemarijnstraatImageView_acc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vestiging_rozemarijnstraat"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/stationsstraatImageView"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- dark transparency view added to support older versions -->
+
+    <View
+        android:id="@+id/dark_contrast_layer_rozemarijnstraat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorImageViewTransparencyMainActivity"
+        app:layout_constraintBottom_toBottomOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintEnd_toEndOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintStart_toStartOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintTop_toTopOf="@+id/rozemarijnstraatImageView" />
+
+    <TextView
+        android:id="@+id/rozemarijnstraat_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/rozemarijnstraat"
+        android:textColor="@color/colorMainActivityTexts"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintEnd_toEndOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintStart_toStartOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintTop_toTopOf="@+id/rozemarijnstraatImageView" />
+
+    <!-- stationsstraat views -->
+
+
+    <ImageView
+        android:id="@+id/stationsstraatImageView"
+        android:contentDescription="@string/stationsstraatImageView_acc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/streetview_stationsstraat"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rozemarijnstraatImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- dark transparency view added to support older versions -->
+
+    <View
+        android:id="@+id/dark_contrast_layer_stationsstraat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorImageViewTransparencyMainActivity"
+        app:layout_constraintBottom_toBottomOf="@+id/stationsstraatImageView"
+        app:layout_constraintEnd_toEndOf="@+id/stationsstraatImageView"
+        app:layout_constraintStart_toStartOf="@+id/stationsstraatImageView"
+        app:layout_constraintTop_toTopOf="@+id/stationsstraatImageView" />
+
+    <TextView
+        android:id="@+id/stationsstraatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/stationsstraat"
+        android:textColor="@color/colorMainActivityTexts"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/stationsstraatImageView"
+        app:layout_constraintEnd_toEndOf="@+id/stationsstraatImageView"
+        app:layout_constraintStart_toStartOf="@+id/stationsstraatImageView"
+        app:layout_constraintTop_toTopOf="@+id/stationsstraatImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

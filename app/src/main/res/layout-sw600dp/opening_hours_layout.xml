@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background_image_rozemarijnstraat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/all_openinghours_fab_button"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/all_openinghours_fab_button">
+
+            <TextView
+                android:id="@+id/today_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="@string/today_key"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorOnPrimary"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/todays_openinghours_textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/todays_openinghours_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/loading"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorOnPrimary"
+                app:layout_constraintBottom_toTopOf="@+id/tomorrow_textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/today_textView" />
+
+            <TextView
+                android:id="@+id/tomorrow_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:text="@string/tomorrow_string"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorOnPrimary"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/tomorrows_openinghours_textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/todays_openinghours_textView" />
+
+            <TextView
+                android:id="@+id/tomorrows_openinghours_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="@string/loading"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/colorOnPrimary"
+                app:layout_constraintBottom_toTopOf="@+id/alteration_textView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tomorrow_textView" />
+
+            <TextView
+                android:id="@+id/alteration_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/subject_change_string"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorOnPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tomorrows_openinghours_textView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/all_openinghours_fab_button"
+        android:contentDescription="@string/all_openinghours_fab_button_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/all_opening_hours_string"
+        android:textColor="@color/colorOnSecondary"
+        app:backgroundTint="@color/colorSecondary"
+        app:iconTint="@color/colorOnSecondary"
+        app:icon="@mipmap/ic_access_time_black_48dp" />
+
+</RelativeLayout>

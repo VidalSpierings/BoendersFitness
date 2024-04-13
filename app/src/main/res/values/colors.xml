@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#000000</color>
+
+    <!-- pre-Android 12 colors -->
+
+    <color name="colorPrimary">#bac9d4</color>
+    <color name="colorPrimaryDark">#8daac1</color>
+    <color name="colorPrimaryVariant">#8daac1</color>
+
     <color name="colorAccent">#FFFFFF</color>
     <color name="colorStatusbar">#424242</color>
 
+    <color name="colorPrimaryDarkButtonText">#000000</color>
+    <color name="fabAndExtendedFabIconColor">#000000</color>
+    <color name="colorToolbarBackground">#FFFFFF</color>
+
+    <color name="colorStationsstraatText">#000000</color>
+    <color name="colorRozemarijnstraatText">#FFFFFF</color>
+
+    <color name="colorNavDrawerBackground">#8EAAC2</color>
+
+    <color name="colorStatusBar">#8daac1</color>
+
     <color name="item_selected">#3A6F8F</color>
+
+    <color name="colorImageViewTransparencyMainActivity">#50000000</color>
+
+    <color name="colorMainActivityTexts">#FFFFFF</color>
+
+    <color name="colorWindowBackground">#FFFFFF</color>
+
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#C7E6FF</color>
+    <color name="colorOnPrimaryContainer">#001E2F</color>
+    <color name="colorSecondary">#78D1FF</color>
+    <color name="colorSecondaryVariant">#C7E6FF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorError">#BA1B1B</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorBackground">#FBFDFD</color>
+    <color name="colorOnBackground">#191C1D</color>
+    <color name="colorSurface">#FBFDFD</color>
+    <color name="colorOnSurface">#191C1D</color>
+    <color name="colorPrimarySurfaceVariant">#DDE3EA</color>
+    <color name="colorOnPrimaryInverted">#000000</color>
+
+    <color name="md_theme_secondaryContainer">#C2E8FF</color>
+    <color name="md_theme_onSecondaryContainer">#001E2C</color>
+    <color name="md_theme_tertiary">#994061</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_tertiaryContainer">#FFD8E3</color>
+    <color name="md_theme_onTertiaryContainer">#3E001C</color>
+    <color name="md_theme_error">#BA1B1B</color>
+    <color name="md_theme_errorContainer">#FFDAD4</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_onErrorContainer">#410001</color>
+    <color name="md_theme_background">#FBFDFD</color>
+    <color name="md_theme_onBackground">#191C1D</color>
+    <color name="md_theme_surface">#FBFDFD</color>
+    <color name="md_theme_onSurface">#191C1D</color>
+    <color name="md_theme_surfaceVariant">#DDE3EA</color>
+    <color name="md_theme_onSurfaceVariant">#41474D</color>
+    <color name="md_theme_outline">#72787E</color>
+    <color name="md_theme_inverseOnSurface">#EFF1F1</color>
+    <color name="md_theme_inverseSurface">#2D3132</color>
+    <color name="md_theme_primaryInverse">#85CEFF</color>
+
+    <color name="seed">#8DAAC1</color>
+
 </resources>
+

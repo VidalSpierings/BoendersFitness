@@ -1,41 +1,30 @@
 <resources>
-    <string name="app_name">Boender</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_startup">Boender</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- general strings -->
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_tariff">TariffActivity</string>
-    <string name="nav_drawer_openingtimes">Opening Hours</string>
-    <string name="nav_drawer_tariff">Rates</string>
-    <string name="only_during_opening_hours">only available during opening hours</string>
-    <string name="send_mail">Send an e-mail</string>
+    <string name="app_name">Boender Fitness</string>
+
+    <!-- visible strings -->
+
+    <string name="rozemarijnstraat" translatable="false">Rozemarijnstraat</string>
+
+    <string name="stationsstraat" translatable="false">Stationsstraat</string>
+
+    <string name="startup_activity_main_string_rozemarijnstraat">Do you want to improve your physical endurance, lose weight or build muscle? If so, look no further than Boender Fitness. \n\n Boender Fitness can offer you a wide arrange of varied and modern training methods. All of our classes are supervised by trained professionals. \n\n Opened 365 days per year for the past 25 years and counting! Going to the gym needs to be enjoyable and challenging on every level, no matter if you\'re young or old, training for fun or for competition. \n\n <b>Boender Fitness is accessible to everyone from the age of 16</b>. \n\n Coffee and tee is FREE for our members in the morning!</string>
+    <string name="startup_activity_main_string_stationsstraat">This establishment has been renewed and is now our biggest Fitness-establishment for him and her \n\n accessible to ages 12 and over. \n\n Coffee and tea are free of charge!</string>
+
+    <string name="nav_drawer_opening_times">Opening Hours</string>
+    <string name="send_mail">Send e-mail</string>
     <string name="startup_header">Welcome to Boender Fitness</string>
-    <string name="info">Establishments</string>
-    <string name="nav_music">Music Implementation</string>
-    <string name="contact">Contact</string>
+    <string name="establishments">Establishments</string>
+    <string name="info">Information</string>
     <string name="home">Home</string>
-    <string name="phone">Phone:</string>
-    <string name="music_description">Paste the share-link of your favorite playlist, album or artist in de textbox below and we will automatically open the link for you whenever you are near a Boender Fitness establishment and have both this menu and location services turned on </string>
-    <string name="not_recognized">Link has been reset</string>
-    <string name="add_link">add link</string>
-    <string name="music">Music Implementation</string>
-    <string name="currently">There is currently no active link</string>
-    <string name="no_active_link">No active link</string>
-    <string name="insert_link_string">insert link</string>
-    <string name="description_main_string">Do you want to improve your physical endurance, lose weight or build muscle? If so, look no further than Boender Fitness. Boender Fitness can offer you a wide arrange of varied and modern training methods. All of our classes are supervised by trained professionals. Opened 365 days per year for the past 25 years and counting! Going to the gym needs to be enjoyable and challenging on every level, no matter if you\'re young or old, training for fun or for competition. Boender Fitness is accessible to everyone from the age of 13. Coffee and tee is FREE for our members in the morning!</string>
-    <string name="successfully_string">Successfully inserted link</string>
-    <string name="all_openinghours_string">all openinghours</string>
-    <string name="change_type_string">change subscription type</string>
+    <string name="all_opening_hours_string">all opening hours</string>
     <string name="today_key">Today:</string>
     <string name="tomorrow_string">Tomorrow:</string>
     <string name="not_key_string">Supervision</string>
     <string name="key_string">Key</string>
-    <string name="description_openinghours_full">We have special opening hours during the holidays, please refer to the notice board at an establishment near you for more information</string>
+    <string name="description_opening_hours_full">We are also closed in case of calamities. \n\n We have special opening hours during the holidays, please refer to the notice board at an establishment near you for more information. \n\n (subject to alteration)</string>
     <string name="facebook_page_string">Visit our Facebook page</string>
     <string name="monday_string">Monday</string>
     <string name="tuesday_string">Tuesday</string>
@@ -44,91 +33,83 @@
     <string name="friday_string">Friday</string>
     <string name="saturday_string">Saturday</string>
     <string name="sunday_string">Sunday</string>
-    <string name="twentyfourth_december_string">December 24th</string>
+
+    <string name="monday_through_friday_string">Monday through Friday</string>
+
+    <string name="weekends_holidays_string">Saturday, Sunday and holidays</string>
+
+    <string name="twentyFourth_december_string">December 24th</string>
     <string name="christmas_string">Christmas</string>
-    <string name="kinsday_string">Kingsday</string>
+    <string name="kings_day_string">King\'s Day</string>
     <string name="ascension_day_string">Ascension Day</string>
     <string name="pentecost_string">Pentecost</string>
-    <string name="carnival_string">Carnival \n (Friday trough \n Tuesday)</string>
+    <string name="carnival_string">Carnival \n(Friday trough \n Tuesday)</string>
     <string name="new_years_eve_slash_day_string">New Year\'s Eve/Day</string>
+
     <string name="closed_string">closed</string>
 
-    <string name="seven_till_thirty_past_ten_string">8:30AM – 10:30PM</string>
-    <string name="nine_till_nine_string">9AM – 9PM</string>
-    <string name="eight_till_nine_string">8AM – 9PM</string>
-    <string name="nine_till_eleven_string">9AM – 11AM</string>
-    <string name="nine_till_eleven_peak_hours_string">9AM - 11AM (Peak Hours)</string>
-    <string name="six_till_ten_string">6PM – 8PM</string>
-    <string name="quarter_past_six_till_eight_string">6:15PM – 8:15PM</string>
-    <string name="half_past_one_till_three_string">1:30PM – 3PM</string>
-    <string name="half_past_one_till_three_peak_hours_string">1:30PM – 3PM (Peak Hours)</string>
+    <string name="terms_of_service">Terms and conditions (Dutch)</string>
 
-    <string name="unlimited_day_string">Unlimited normal</string>
-    <string name="day_costs">€ 26,95 per month</string>
-    <string name="unlimited_dal">Unlimited peakhours</string>
-    <string name="dal_costs">€ 21,95 per month</string>
-    <string name="all_subscriptions">all subscriptions include a key!</string>
-    <string name="key_subscription">KEY-subscription</string>
-    <string name="sixty_plus">Senior and youth tariff</string>
-    <string name="sixty_plus_description">Members above the age of 60 and below the age of 23 pay a reduced price of only € 21,95,- per month for unlimited normal fitness</string>
-    <string name="sixty_plus_description_ladies">Members above the age of 60 and below the age of 23 pay a reduced price of only € 19,95,- per month for unlimited normal fitness</string>
-    <string name="onelesson">Try-out visit</string>
-    <string name="onelesson_description">€ 5,- . This payment will be deducted when you sign up to one of our gyms within a week</string>
-    <string name="family_subscription">Family Subscription (unlimited)</string>
-    <string name="family_subsciption_description">€ 59,95 per month \n \n - available for a maximum of 5 people (2 adults + 3 children) per subscription \n \n - all family members are required to prove that they live at the same address \n \n - cannot be combined with other discounts \n \n - cardholder is liable to use and abuse</string>
-    <string name="additional_costs">Sign-up Payment</string>
-    <string name="additional_costs_description">€ 10,- (without instruction lesson) \n or \n € 15,- (including instruction lesson by appointment)</string>
-    <string name="terms_of_service">Terms of condition (Dutch)</string>
-    <string name="home_string">Home</string>
-    <string name="music_string">Music</string>
-    <string name="opening_hours_string">Hours</string>
-    <string name="tariffs_string">Rates</string>
-    <string name="establishments_string"> Locations </string>
-    <string name="contact_string">Contact</string>
-    <string name="key_subsciption_description">Customers with a KEY subsciption can enter our establishments 365 days per year, outside of regular opening hours. You will be given a key which is required to enter your establishment of choice outside of regular opening hours (ask one of our employees for more information)</string>
-    <string name="enter_link_string">Enter your link here</string>
-    <string name="property_of_string">property of</string>
-    <string name="internet_link">entec.weebly.com</string>
-    <string name="normal_hours_string">Peak hours</string>
-    <string name="peak_hours_string">Normal Hours</string>
-    <string name="invalid_url_string">Invalid url</string>
+    <string name="loading">Loading…</string>
 
-    <string name="activity_image_trans">sjksdjksdjkfsdfsdj</string>
-    <string name="activity_image_trans2">sjksdjksdjkfsdfsdj</string>
+    <string name="activity_image_trans">transition 1</string>
+    <string name="activity_image_trans2">transition 2</string>
     <string name="closed_in_evening">closed in evening</string>
-    <string name="seven_till_half_past_ten_key_string">8:30AM - 10:30PM (Key)</string>
-    <string name="nine_till_eleven_not_key_string">9AM - 11AM (Supervision)</string>
-    <string name="eight_till_nine_key_string">8AM - 9PM (Key)</string>
-    <string name="six_till_eight_not_key_string">6:15PM - 8:15PM (Supervision)</string>
-    <string name="geofence">geofencestring</string>
-    <string name="area_accesed_string_title_string">You are near a Boender Fitness establishment </string>
-    <string name="area_accesed_string_description_string">Do you want to open your music app?</string>
-    <string name="not_connected">Unable to connect to Google Play Sevices</string>
-    <string name="geofence_not_available">Unable to communicate with Location Sevices</string>
-    <string name="geofence_too_many_geofences">Unable to connect: Location Services is receiving an overload of requests</string>
-    <string name="geofence_too_many_pending_intents">Unable to connect to Location Services</string>
-    <string name="unknown_geofence_error">Unknown Location Services error</string>
+    <string name="not_connected">Unable to connect to Google Play Services</string>
+
     <string name="no_internet_string">Something went wrong, please check if you\'re connected to the internet and try again</string>
     <string name="fifth_of_december_string">December 5th</string>
-    <string name="eightteen_fifty_string">€ 18,50 per month</string>
-    <string name="twentyfive_string">€ 25,- per month</string>
     <string name="subject_change_string">(subject to alteration)</string>
 
-    <string name="weekend_sub">Weekend subscription</string>
-    <string name="weekend_sub_desc">€ 14,95 per month</string>
-    <string name="vacu">Unlimited Vacustep and/or fitness</string>
-    <string name="vacu_desc">€ 34,95 per month</string>
-    <string name="partner_sub">Partner subscription</string>
-    <string name="partner_sub_desc">Unlimited Vacustep and/or fitness for you and your partner for a tariff of € 49,95 per month</string>
-    <string name="vacu_seperate">Seprate Vacustep session</string>
-    <string name="vacu_seprate_desc">€ 5,- this tariff will be deducted if you sign up for one of our gyms within a week</string>
+    <string name="call">Call</string>
 
-    <string name="day_costs_ladies">€ 25,- per month</string>
-    <string name="dal_costs_ladies">€ 19,95 per month</string>
-    <string name="family_subsciption_description_ladies">€ 60,- per month \n \n - available for a maximum of 5 people (2 adults + 3 children) per subscription \n \n - all family members are required to prove that they live at the same address \n \n - cannot be combined with other discounts \n \n - cardholder is liable to use and abuse</string>
-    <string name="additional_costs_description_ladies">€ 10,- (without instruction lesson) \n or \n € 20,- (including instruction lesson by appointment)</string>
+    <string name="error_loading_certain_data">Error loading certain data</string>
 
-    <string name="unlimited_day_gestel">Unlimited Fitness</string>
-    <string name="unlimited_day_desc_gestel">€ 24,95 per month</string>
+    <string name="activity_location_rozemarijnstraat_textView" translatable="false">Rozemarijnstraat 6a, Boxtel</string>
+    <string name="activity_location_stationsstraat_textView" translatable="false">Stationsstraat 59-07, Boxtel</string>
+
+    <string name="activity_location_promo_textView">The cheapest gym in the region, we offer \n Fitness - Cardio - Strength training - tanning beds and Vacusteps \n NO CONTRACTS!\n\n Please visit an establishment near you to ask questions about a new subscription, our subscription extra\'s or our terms of service. \n All subject to alteration. \n\n* Ask for our special terms of service</string>
+
+    <!-- invisible strings -->
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="phone_number" translatable="false">0617428565</string>
+    <string name="email" translatable="false">boenderfitness@hotmail.com</string>
+    <string name="terms_and_conditions_url" translatable="false">http://www.boenderfitness.nl/reglement.pdf</string>
+
+    <string name="sharedPrefs_mainPrefs_name" translatable="false">Selected Establishment</string>
+
+    <string name="sharedPrefs_Rozemarijnstraat_string" translatable="false">Establishment Rozemarijnstraat</string>
+    <string name="sharedPrefs_Stationsstraat_string" translatable="false">Establishment Stationsstraat</string>
+
+    <string name="sharedPrefs_Establishment_selection_string" translatable="false">Selected Establishment</string>
+
+    <string name="sharedPrefs_Establishment_not_found_string" translatable="false">Establishment not found</string>
+
+    <!--- content labels for accessibility support for blind users -->
+
+    <!--- 'Boender' is stated here as 'Boonder' (amongst other terms) so the English text-to-speech pronounces the Dutch organisation name correctly -->
+
+    <string name="rozemarijnstraatImageView_acc">Button: Open Rosen-mareye-straht establishment</string>
+    <string name="stationsstraatImageView_acc">Button: Open Stat-xi-on straht establishment</string>
+
+    <string name="fab_content_startup_acc_string">Button: open today\'s and tomorrow\'s opening hours</string>
+    <string name="years_of_experience_imageView_acc_string">Image: Boonder Fitness has roughly 30 years of experience in running Fitness establishments</string>
+
+    <string name="email_fab_button_acc">Button: Send an e-mail</string>
+    <string name="call_fab_button_acc">Button: Call Boonder Fitness</string>
+    <string name="terms_of_service_fab_button_acc">Button: Open the Boonder Fitness terms of service in a new webpage</string>
+
+    <string name="all_openinghours_fab_button_acc">Button: Open all opening hours</string>
+
+    <string name="navigation_drawer_toggle">Button: Open the navigation menu</string>
+
+    <string name="navigation_drawer_home_button">Button: Open the home page</string>
+    <string name="navigation_drawer_establishments_button">Button: Open the establishments page</string>
+    <string name="navigation_drawer_opening_hours_button">Button: Open the opening hours page</string>
+    <string name="navigation_drawer_information_button">Button: Open the information page</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>

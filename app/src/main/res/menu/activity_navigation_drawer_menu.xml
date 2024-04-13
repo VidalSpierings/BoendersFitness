@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home"
+            android:title="@string/home"
+            android:contentDescription="@string/navigation_drawer_home_button"
+            android:icon="@mipmap/outline_home_black_48" />
+        <item android:id="@+id/establishments"
+            android:title="@string/establishments"
+            android:contentDescription="@string/navigation_drawer_establishments_button"
+            android:icon="@mipmap/outline_fitness_center_black_48"/>
+        <item android:id="@+id/opening_hours"
+            android:title="@string/nav_drawer_opening_times"
+            android:contentDescription="@string/navigation_drawer_opening_hours_button"
+            android:icon="@mipmap/ic_access_time_black_48dp"/>
+        <item android:id="@+id/information"
+            android:title="@string/info"
+            android:contentDescription="@string/navigation_drawer_information_button"
+            android:icon="@mipmap/outline_info_black_48"/>
+
+    </group>
+
+
+
+</menu>

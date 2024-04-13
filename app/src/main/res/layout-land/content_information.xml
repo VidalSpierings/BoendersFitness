@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_image_rozemarijnstraat"
+    tools:context="com.entecmedia.boendersfitness.ui.fragments.EstablishmentFragment">
+
+    <ScrollView
+        android:id="@+id/prices_and_info_text_scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/terms_of_service_fab_button"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="350dp">
+
+        <TextView
+            android:id="@+id/prices_and_info_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorOnPrimary"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/activity_location_promo_textView"
+            android:textSize="22sp" />
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/terms_of_service_fab_button"
+        android:contentDescription="@string/terms_of_service_fab_button_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/terms_of_service"
+        app:icon="@mipmap/outline_text_snippet_black_48"
+        android:textColor="@color/colorOnSecondary"
+        app:iconTint="@color/colorOnSecondary"
+        app:backgroundTint="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@+id/call_fab_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prices_and_info_text_scrollView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/call_fab_button"
+        android:contentDescription="@string/call_fab_button_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/call"
+        android:textColor="@color/colorOnSecondary"
+        app:icon="@mipmap/ic_call_black_48dp"
+        app:iconTint="@color/colorOnSecondary"
+        app:backgroundTint="@color/colorSecondary"
+        app:layout_constraintBottom_toTopOf="@+id/email_fab_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prices_and_info_text_scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/terms_of_service_fab_button" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/email_fab_button"
+        android:contentDescription="@string/email_fab_button_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/send_mail"
+        android:textColor="@color/colorOnSecondary"
+        app:icon="@mipmap/outline_email_black_48"
+        app:iconTint="@color/colorOnSecondary"
+        app:backgroundTint="@color/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prices_and_info_text_scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/call_fab_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

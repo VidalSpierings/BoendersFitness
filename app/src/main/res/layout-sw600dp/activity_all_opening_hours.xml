@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background_image_rozemarijnstraat">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/allOpeningHoursTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@id/fifthOfDecemberTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fifthOfDecemberTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/fifth_of_december_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/fifthOfDecemberTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/fifthOfDecemberTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/fifthOfDecemberTimesTextView" />
+
+        <TextView
+            android:id="@+id/fifthOfDecemberTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@id/december24thTimesTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fifthOfDecemberTextView"
+            app:layout_constraintTop_toBottomOf="@+id/allOpeningHoursTextView" />
+
+        <TextView
+            android:id="@+id/december24thTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/twentyFourth_december_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/december24thTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/december24thTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/december24thTimesTextView" />
+
+        <TextView
+            android:id="@+id/december24thTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/christmasTimesTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/december24thTextView"
+            app:layout_constraintTop_toBottomOf="@+id/fifthOfDecemberTimesTextView" />
+
+        <TextView
+            android:id="@+id/christmasTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/christmas_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/christmasTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/christmasTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/december24thTimesTextView"
+            app:layout_constraintTop_toTopOf="@+id/christmasTimesTextView" />
+
+        <TextView
+            android:id="@+id/christmasTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/christmasTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/christmasTextView"
+            app:layout_constraintTop_toBottomOf="@+id/december24thTimesTextView" />
+
+        <TextView
+            android:id="@+id/kingsDayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/kings_day_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/kingsDayTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/kingsDayTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/kingsDayTimesTextView" />
+
+        <TextView
+            android:id="@+id/kingsDayTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/kingsDayTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/kingsDayTextView"
+            app:layout_constraintTop_toBottomOf="@+id/christmasTimesTextView" />
+
+        <TextView
+            android:id="@+id/ascensionDayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/ascension_day_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/ascensionDayTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/ascensionDayTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ascensionDayTimesTextView" />
+
+        <TextView
+            android:id="@+id/ascensionDayTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/ascensionDayTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ascensionDayTextView"
+            app:layout_constraintTop_toBottomOf="@+id/kingsDayTimesTextView" />
+
+        <TextView
+            android:id="@+id/pentecostTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/pentecost_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/pentecostTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/pentecostTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/pentecostTimesTextView" />
+
+        <TextView
+            android:id="@+id/pentecostTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/pentecostTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/pentecostTextView"
+            app:layout_constraintTop_toBottomOf="@+id/ascensionDayTimesTextView" />
+
+        <TextView
+            android:id="@+id/carnivalTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/carnival_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/carnivalTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/carnivalTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/carnivalTimesTextView" />
+
+        <TextView
+            android:id="@+id/carnivalTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/carnivalTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/carnivalTextView"
+            app:layout_constraintTop_toBottomOf="@+id/pentecostTimesTextView" />
+
+        <TextView
+            android:id="@+id/newYearsEveDayTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/new_years_eve_slash_day_string"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/newYearsEveDayTimesTextView"
+            app:layout_constraintEnd_toStartOf="@+id/newYearsEveDayTimesTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/newYearsEveDayTimesTextView" />
+
+        <TextView
+            android:id="@+id/newYearsEveDayTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/newYearsEveDayTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/newYearsEveDayTextView"
+            app:layout_constraintTop_toBottomOf="@+id/carnivalTimesTextView" />
+
+        <TextView
+            android:id="@+id/specialOpeningTimesTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="75dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/description_opening_hours_full"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/newYearsEveDayTimesTextView"
+            app:layout_constraintWidth_max="500dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
+
